@@ -29,4 +29,4 @@ RUN apk add --no-cache bash bash-doc bash-completion
 
 WORKDIR /source
 
-CMD fpc -iw
+CMD fpc -iV
