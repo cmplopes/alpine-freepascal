@@ -1,4 +1,4 @@
-# cmplopes/alpine-gfortran
+# cmplopes/alpine-freepascal
 Docker Free Pascal over Alpine Linux
 
 ```
