@@ -1,5 +1,5 @@
 # cmplopes/alpine-freepascal
-Docker Free Pascal over Alpine Linux
+Docker Free Pascal fpc over Alpine Linux
 
 ```
 $ docker pull -t cmplopes/alpine-freepascal:[TAG]
