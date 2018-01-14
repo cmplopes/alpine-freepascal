@@ -15,7 +15,7 @@ $ docker run --rm -it -v $(pwd):/source cmplopes/alpine-freepascal
 ```
 or
 ```
-$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-freepascal fpc -iw
+$ docker run --rm -it -v $(pwd):/source cmplopes/alpine-freepascal fpc -iV
 ```
 
 ## Compile, link and run a Free Pascal program
