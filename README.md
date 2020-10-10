@@ -2,7 +2,7 @@
 Docker Free Pascal (fpc) over Alpine Linux
 
 ```
-$ docker pull -t cmplopes/alpine-freepascal:[TAG]
+$ docker pull cmplopes/alpine-freepascal:[TAG]
 ```
 
 ## Suported Tags
