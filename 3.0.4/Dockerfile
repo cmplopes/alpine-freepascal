@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-MAINTAINER Carlos Lopes "cmplopes67@gmail.com"
+LABEL maintainer="Carlos Lopes (cmplopes67@gmail.com("
 
 ENV FPC_VERSION="3.0.4" \
     FPC_ARCH="x86_64-linux"
