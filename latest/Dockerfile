@@ -5,6 +5,9 @@ LABEL maintainer="Carlos Lopes (cmplopes67@gmail.com)"
 ENV FPC_VERSION="3.0.4" \
     FPC_ARCH="x86_64-linux"
 
+RUN apk add --no-cache bash bash-doc bash-completion
+RUN apk add --no-cache libgcc
+
 RUN apk add --no-cache binutils && \
     cd /tmp && \
     wget "ftp://ftp.hu.freepascal.org/pub/fpc/dist/${FPC_VERSION}/${FPC_ARCH}/fpc-${FPC_VERSION}.${FPC_ARCH}.tar" -O fpc.tar && \
@@ -24,8 +27,6 @@ RUN apk add --no-cache binutils && \
         -not -name 'rtl-objpas' \
         -exec rm -r {} \; && \
 rm -r "/lib64" "/tmp/"*
-
-RUN apk add --no-cache bash bash-doc bash-completion
 
 WORKDIR /source
 
