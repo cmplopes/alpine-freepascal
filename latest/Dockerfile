@@ -6,7 +6,7 @@ ENV FPC_VERSION="3.0.4" \
     FPC_ARCH="x86_64-linux"
 
 RUN apk add --no-cache bash bash-doc bash-completion
-RUN apk add --no-cache libgcc
+RUN apk add --no-cache build-base
 
 RUN apk add --no-cache binutils && \
     cd /tmp && \
